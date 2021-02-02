@@ -34,8 +34,6 @@ MAYBE: Create a web app version of it using Flask
 
 
 
-
-
 These Items are in the Project requirements but I'm not using them at this time - leaving them here for future reference:
 
 Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
