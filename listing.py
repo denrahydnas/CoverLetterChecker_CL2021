@@ -1,8 +1,8 @@
-# Have User input Job Listing text
+# Have User input Job Listing text - ok
 # exclude errors
-# remove punctuation
-# use .lower to simplify
-# split words into job_listing list 
+# remove punctuation - ok (https://stackoverflow.com/questions/1059559/split-strings-into-words-with-multiple-word-boundary-delimiters)
+# use .lower to simplify - ok
+# split words into job_listing list - ok
 # get len of job_listing 
 # combline duplicates
 # get rid of unecessary words (the, of, or, to, etc) (loop against an Exclude list?)
@@ -11,6 +11,8 @@
 # print found_keyword list for User
 
 
+import re
 job_text = input("Please paste the text from the job listing here:     ")
-job_listing = [job_text.split(" ")]
-print(job_listing)
+parsed_text = re.findall(r"[\w']+", job_text.lower())
+
+print(parsed_text)
