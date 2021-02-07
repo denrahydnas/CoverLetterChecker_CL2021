@@ -12,7 +12,15 @@
 
 
 import re
-job_text = input("Please paste the text from the job listing here:     ")
-parsed_text = re.findall(r"[\w']+", job_text.lower())
 
-print(parsed_text)
+while True:
+    answer = input("Would you like to check for keywords? Yes/No:   ")
+    if answer.upper() == 'NO':
+        break
+    if answer.upper() == 'YES':
+        try:
+            job_text = input("Please paste the text from the job listing here:     ")
+            parsed_text = re.findall(r"[\w']+", job_text.lower())
+            print(parsed_text)
+        except ValueError:
+            print("That's not a valid response. Please try again.")
