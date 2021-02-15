@@ -1,6 +1,6 @@
 # Have User input Job Listing text - ok
 # exclude errors
-# remove punctuation - ok (https://stackoverflow.com/questions/1059559/split-strings-into-words-with-multiple-word-boundary-delimiters)
+# remove punctuation - ok 
 # use .lower to simplify - ok
 # split words into job_listing list - ok
 # get len of job_listing 
@@ -13,14 +13,19 @@
 
 import re
 
+keyword_file = open("keywords.txt")
+keyword_list = keyword_file.read()
+keyword_file.close()
+
+
 while True:
     answer = input("Would you like to check for keywords? Yes/No:   ")
     if answer.upper() == 'NO':
         break
     if answer.upper() == 'YES':
         try:
-            job_text = input("Please paste the text from the job listing here:     ")
-            parsed_text = re.findall(r"[\w']+", job_text.lower())
-            print(parsed_text)
+            listing_text = input("Please paste the text from the job listing here:     ")
+            job_text = re.findall(r"[\w']+", listing_text.lower())
+            print(job_text)
         except ValueError:
             print("That's not a valid response. Please try again.")
