@@ -335,7 +335,7 @@ process development
 process improvements	
 procurement	
 product
-product design	
+product design
 product knowledge	
 product line	
 product management	
@@ -343,7 +343,7 @@ product marketing
 product quality	
 program development	
 program management	
-programming	
+programming
 project delivery	
 project management	
 project management skills	
