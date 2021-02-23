@@ -1,82 +1,82 @@
-.NET	
-account management	
-accounting	
-accounts payable	
-accounts receivable	
-acquisition	
-acquisitions	
-administrative support	
-admissions	
-Adobe	
-Adobe Creative Suite	
-advertising	
-affiliate	
-agile	
-algorithms	
-alliances	
-analysis	
-analytical	
-analytical skills	
-analytics	
-analyze data	
-analyzing data	
-android	
-annual budget	
-API	
-APIs	
-architecture	
-architectures	
-assembly	
-asset management	
-audio	
-audit	
-auditing	
-AutoCAD	
-automation	
-aviation	
-AWS	
-banking	
-benchmark	
+.NET
+account management
+accounting
+accounts payable
+accounts receivable
+acquisition
+acquisitions
+administrative support
+admissions
+Adobe
+Adobe Creative Suite
+advertising
+affiliate
+agile
+algorithms
+alliances
+analysis
+analytical
+analytical skills
+analytics
+analyze data
+analyzing data
+android
+annual budget
+API
+APIs
+architecture
+architectures
+assembly
+asset management
+audio
+audit
+auditing
+AutoCAD
+automation
+aviation
+AWS
+banking
+benchmark
 beverage	
-BI	
-big data	
-billing	
-biology	
-brand	
-branding	
-broadcast	
-budget	industry trends
-budget management	
-budgeting	
-build relationships	
-business administration	
-business analysis	
-business cases	installation
-business continuity	
-business development	
-business intelligence	
-business issues	
-business management	
-business planning	
-business plans	
-business process	
-business requirements	
-business stakeholders	
-business strategy	
-business systems	
-C (programming language)	
-C#	
-C++	
-CAD	
-call center	
-case management	
-cash flow	
-certification	
-CFA	
-change management	
-chemicals	
-chemistry	
-circuits	
+BI
+big data
+billing
+biology
+brand
+branding
+broadcast
+budget industry trends
+budget management
+budgeting
+build relationships
+business administration
+business analysis
+business cases installation
+business continuity
+business development
+business intelligence
+business issues
+business management
+business planning
+business plans
+business process
+business requirements
+business stakeholders
+business strategy
+business systems
+C
+C#
+C++
+CAD
+call center
+case management
+cash flow
+certification
+CFA
+change management
+chemicals
+chemistry
+circuits
 Cisco	
 client relationships	
 client service	
@@ -284,16 +284,16 @@ merchandising	s
 metrics	
 Microsoft Office	
 Microsoft Office Suite	
-Microsoft Word	
-migration	
-mining	supply chain
-MIS	
-mobile	
-modeling	
-mortgage	
-MS Excel	
-MS Office	
-MS Project	
+Microsoft Word
+migration
+mining supply coaching
+MIS
+mobile
+modeling
+mortgage
+MS Excel
+MS Office
+MS Project
 negotiation	
 networking	
 non-profit	

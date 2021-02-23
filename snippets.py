@@ -18,3 +18,9 @@ if add.upper() == "YES":
    KeyList.add(input("Please type the Keyword here:   "))
 else:
     print("No worries, thanks!")
+
+
+
+    def makeset(string):
+    match = re.findall(r'[- \w*]+', string) 
+    return(match)
