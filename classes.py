@@ -23,12 +23,9 @@ class KeyList:
     def create_keylist(self, text):
         k_list = []
         for i in range(len(keyword_list)):
-            if re.search(keyword_list[i], text) == True:
+            if keyword_list[i] in text:
                 k_list.append(keyword_list[i])
-        print(len(k_list))
-
-
-        
+    
 
 
 
