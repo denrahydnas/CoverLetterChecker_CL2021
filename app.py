@@ -60,5 +60,14 @@ while True:
     user_letter = get_user_file(compare_text)
 
 # print results of comparisons (use class for multiple methods?)
+    match_list = []
+    list_parser(user_list, user_letter, match_list)
+    print("We have identified {} matching keywords. ".format(len(match_list)))
+    answer = input("Would you like to review the list? Yes/No   ")
+    if answer.upper() == 'YES':
+        print(match_list)
+    else:
+        break
+
 
 
