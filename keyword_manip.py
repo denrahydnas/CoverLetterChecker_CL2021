@@ -6,7 +6,7 @@ with open("keywords.txt") as file:
         phrase = line.strip('\t\n')
         key_list.append(phrase)
 
-#get path from user to find .txt file to compare to Keyword list
+#get path from user to find .txt file to compare to Keyword list - ADD TRY BLOCK
 
 def get_user_file(path_name):
     if path_name[-4:] == ".txt":
@@ -20,7 +20,7 @@ def get_user_file(path_name):
 # req inputs are: 
 # 1) list to compare  2) text to compare 3) empty list to store results
 
-refined_list = []
+#refined_list = []
 
 def list_parser(list1, text, list2):
     list_len = len(list1)
