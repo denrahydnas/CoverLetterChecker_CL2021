@@ -8,7 +8,6 @@ I'm going to create a program that will compare a cover letter to a job listing 
 ==> check cover letter and job listing match - job title, company name, etc
 ==> compare cover letter to keywords in job listing, return match results
 ==> check cover letter for overused words, suggest synonyms (use MW API (https://dictionaryapi.com/products/api-collegiate-thesaurus)?)
-==> check cover letter for passive voice, percentage of sentences beginning with I, etc. 
 
 
 Features List:
@@ -30,24 +29,3 @@ MAYBE: Connect to an external/3rd party API and read data into your app
 MAYBE: Create a web app version of it using Flask
 
 
-
-
-
-
-
-
-These Items are in the Project requirements but I'm not using them at this time - leaving them here for future reference:
-
-Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
-Create a class, then create at least one object of that class and populate it with data. The value of at least one object must be used somewhere in your code
-Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
-Connect to an external/3rd party API and read data into your app
-Create 3 or more unit tests for your application
-Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
-Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
-Visualize data in a graph, chart, or other visual representation of data
-“Stretch” Features
-These count too! But they will require going outside of Treehouse to learn about and may be more challenging
-Implement a “scraper” that can be fed a type of file or URL and pull information off of it. For example, a web scraper that lets you provide any website URL and it will find certain keywords on the page
-Implement optical character recognition (OCR) that you can upload PDFs to and it will generate the text 
-Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display

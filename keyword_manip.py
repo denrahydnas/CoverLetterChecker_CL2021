@@ -28,6 +28,11 @@ def list_parser(list1, text, list2):
         if list1[i] in text:
             list2.append(list1[i])
 
+def unused_list(list1, list2, new_list):
+    ranger = len(list1)
+    for i in range(ranger):
+        if list1[i] not in list2:
+            new_list.append(list1[i])
 
 # testing
 #file = get_user_file(path_name)

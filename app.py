@@ -1,4 +1,3 @@
-from classes import *
 from keyword_manip import *
 
 
@@ -16,34 +15,31 @@ print('*'*80)
 # While loop for program
 
 while True:
-    answer = input("Would you like to check for keywords? Yes/No:   ")
+    answer = input("\nWould you like to check for keywords? Yes/No:   ")
     if answer.upper() == 'NO':
         break
-    if answer.upper() == 'YES':
-        try:
-            listing_text = input("Please save the job listing as a .txt file and type the path here:  ")
-        except ValueError:
-            print("That's not a valid response. Please try again.")
 
 # get user job listing and make parsed list
 
+    listing_text = input("\nPlease save the job listing as a .txt file and type the path here:  ")
     job_listing = get_user_file(listing_text)
 
     user_list = []
     list_parser(key_list, job_listing, user_list)
-    print("We have identified {} keywords from your job listing. ".format(len(user_list)))
-    answer = input("Would you like to review the list? Yes/No   ")
+    print("\nWe have identified {} keywords from your job listing. \n".format(len(user_list)))
+    answer = input("\nWould you like to review the list? Yes/No/Quit   ")
     if answer.upper() == 'YES':
         print(user_list)
-    else:
+    if answer.upper() == 'QUIT':
         break
+
 
 #next ask user to review keyword list and add any others theyd like to check for
 
     while True:
-        answer = input("Would you like to add any other words to the list? Yes/No/View   ")
+        answer = input("\nWould you like to add any other words to the list? Yes/No/View   ")
         if answer.upper() == 'YES':
-            word = input("What word or phrase would you like to add:  ")
+            word = input("\nWhat word or phrase would you like to add:  ")
             user_list.append(word)
         elif answer.upper() == 'VIEW':
             print(user_list)
@@ -55,19 +51,40 @@ while True:
     print('\n')
     print('*' *80)
     print('\n')      
-    print("We can now compare the list you created to your cover letter or resume.\n")
-    compare_text = input("Please save your document as a .txt file and type the path here:  ")              
+    print("We can now compare the list you created to your cover letter or resume.")
+    compare_text = input("\nPlease save your document as a .txt file and type the path here:  ")              
     user_letter = get_user_file(compare_text)
 
 # print results of comparisons (use class for multiple methods?)
     match_list = []
     list_parser(user_list, user_letter, match_list)
-    print("We have identified {} matching keywords. ".format(len(match_list)))
-    answer = input("Would you like to review the list? Yes/No   ")
+    print("\nWe have identified {} matching keywords.".format(len(match_list)))
+    
+    match_percentage = len(user_list)/len(match_list)
+    print("\nYou have matched {}% of keywords identified from the job listing.".format(match_percentage))
+    if match_percentage < 50:
+            print("\nWe recommend adding more keywords in order to increase your match percentage.")
+    
+    unmatched = []
+    unused_list(user_list, match_list, unmatched)
+
+    answer = input("\nWould you like to review the lists? Yes/No   ")
     if answer.upper() == 'YES':
-        print(match_list)
-    else:
+        print("\nYou used the following keywords: {}".format(match_list))
+        print("\nYou did not use the following keywords: {}".format(unmatched))
+
+
+# add a few more recommendations here - 
+# split text by sentence, check how many begin with "I" using count()
+# check sentence length and comma number, recommend cutting if over 12 words and has more than 1 comma
+# if words are used more than 5 times in letter, show and recommend using synonyms
+
+
+    answer = input("\nWould you like to compare other files? Yes/No/Quit  ")
+    if answer.upper() == 'QUIT':
+        print("\nOk, thank you - good luck on your job hunt!")
         break
-
-
+    if answer.upper() == 'NO':
+        print("\nOk, thank you - good luck on your job hunt!")
+        break
 
