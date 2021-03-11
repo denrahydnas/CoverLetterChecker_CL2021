@@ -60,7 +60,7 @@ while True:
     list_parser(user_list, user_letter, match_list)
     print("\nWe have identified {} matching keywords.".format(len(match_list)))
     
-    match_percentage = len(user_list)/len(match_list)
+    match_percentage = (len(match_list)/len(user_list))*100
     print("\nYou have matched {}% of keywords identified from the job listing.".format(match_percentage))
     if match_percentage < 50:
             print("\nWe recommend adding more keywords in order to increase your match percentage.")
