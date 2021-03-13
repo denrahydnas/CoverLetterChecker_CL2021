@@ -20,9 +20,7 @@ while True:
         break
 
 # get user job listing and make parsed list
-
-    listing_text = input("\nPlease save the job listing as a .txt file and type the path here:  ")
-    job_listing = get_user_file(listing_text)
+    job_listing = try_file()
 
     user_list = []
     list_parser(key_list, job_listing, user_list)
@@ -51,9 +49,8 @@ while True:
     print('\n')
     print('*' *80)
     print('\n')      
-    print("We can now compare the list you created to your cover letter or resume.")
-    compare_text = input("\nPlease save your document as a .txt file and type the path here:  ")              
-    user_letter = get_user_file(compare_text)
+    print("We can now compare the list you created to your cover letter or resume.")          
+    user_letter = try_file()
 
 # print results of comparisons (use class for multiple methods?)
     match_list = []

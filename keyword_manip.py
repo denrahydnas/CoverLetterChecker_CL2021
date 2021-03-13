@@ -1,4 +1,3 @@
-
 # create master key list from txt file
 key_list = []
 with open("keywords.txt") as file:
@@ -6,15 +5,21 @@ with open("keywords.txt") as file:
         phrase = line.strip('\t\n')
         key_list.append(phrase)
 
-#get path from user to find .txt file to compare to Keyword list - ADD TRY BLOCK
+#get path from user to find .txt file to compare to Keyword list
 
-def get_user_file(path_name):
-    if path_name[-4:] == ".txt":
-        with open (path_name) as userfile:
-            file = userfile.read()
-        return file
-    else:
-        path_name = input("Please save the file as .txt and paste the path here:  ")
+def try_file():
+    while True:
+        path_name = input("\nPlease save the job listing as a .txt file and enter the path here: ")
+        try:
+            if path_name[-4:] == ".txt":
+                with open (path_name) as userfile:
+                    file = userfile.read()
+                    return file
+            else:
+                print("This is not the correct file type.")
+        except OSError:
+            print("OS Error: We were not able to open your file.")
+            print("Please double check that the name and file type are correct.")
 
 # reuseable list parsing function - should this be a class eventually?
 # req inputs are: 
