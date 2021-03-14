@@ -1,9 +1,12 @@
+import re
+
 # create master key list from txt file
-key_list = []
+
+master_list = []
 with open("keywords.txt") as file:
     for line in file:
         phrase = line.strip('\t\n')
-        key_list.append(phrase)
+        master_list.append(phrase)
 
 #get path from user to find .txt file to compare to Keyword list
 
@@ -21,25 +24,32 @@ def try_file():
             print("OS Error: We were not able to open your file.")
             print("Please double check that the name and file type are correct.")
 
-# reuseable list parsing function - should this be a class eventually?
-# req inputs are: 
-# 1) list to compare  2) text to compare 3) empty list to store results
 
-#refined_list = []
+# refine lists to sort matches
 
-def list_parser(list1, text, list2):
-    list_len = len(list1)
-    for i in range(list_len):
+def find_matches(list1, text, list2):
+    '''req inputs are: 1) list to compare  2) text/list to compare 3) empty list to store results'''
+    ranger = len(list1)
+    for i in range(ranger):
         if list1[i] in text:
             list2.append(list1[i])
 
 def unused_list(list1, list2, new_list):
+    '''req inputs are: 1) list to compare  2) text/list to compare 3) empty list to store results'''
     ranger = len(list1)
     for i in range(ranger):
         if list1[i] not in list2:
             new_list.append(list1[i])
 
-# testing
-#file = get_user_file(path_name)
-#list_parser(key_list, file, refined_list)
-#print(refined_list)
+# work on parsing cover letter - check for repeated word usage, sentences starting with I
+
+def split_words(text, new_list):
+    words = re.split(r"[;,.?! \t\n]+", text)
+    new_list.append(words)
+
+def split_sentences(text, new_list):
+    sentences = re.split(r"[.?!\t\n]+", text)
+    new_list.append(sentences)
+
+
+       

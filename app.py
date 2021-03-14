@@ -23,7 +23,7 @@ while True:
     job_listing = try_file()
 
     user_list = []
-    list_parser(key_list, job_listing, user_list)
+    find_matches(master_list, job_listing, user_list)
     print("\nWe have identified {} keywords from your job listing. \n".format(len(user_list)))
     answer = input("\nWould you like to review the list? Yes/No/Quit   ")
     if answer.upper() == 'YES':
@@ -54,7 +54,7 @@ while True:
 
 # print results of comparisons (use class for multiple methods?)
     match_list = []
-    list_parser(user_list, user_letter, match_list)
+    find_matches(user_list, user_letter, match_list)
     print("\nWe have identified {} matching keywords.".format(len(match_list)))
     
     match_percentage = (len(match_list)/len(user_list))*100
