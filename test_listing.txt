@@ -1,42 +1,39 @@
-Product Designers live at the crossroads of empathy and technology. They embrace their users’ points of view to define meaningful problems. researchers, business analysts, writers, visual designers, developers, and countless other stakeholders. They develop thoughtful solutions, taking business needs, technological capabilities, and user feedback into account.
-
-At Cvent, that philosophy translates into creating the best experience for anyone who plans and attends meetings and events. As a part of our Product Design team, you’ll design new products and improve existing ones. You’ll map workflows, create wireframes, produce prototypes, and participate in user research. You’ll use the latest design tools, but also develop ideas on paper and whiteboards. You’ll work alone and collaborate with a team. You’ll take ownership for your product area, validating your ideas and presenting to senior designers and stakeholders for feedback.
-
-We’re looking for talented and passionate designers to help shape the future of the event industry. We want to see your work, how you think through problems, and what design principles guide your process. When applying, please provide a link to your online portfolio or send it as a PDF. Candidates who do not submit a portfolio will not be considered.
-
-Position Duties
-Understand the complex problems our customers face, and how Cvent’s products work to solve them
-Empathize with and extend our target audience understanding, and envision efficient and enjoyable end-to-end processes
-Collaborate with user researchers, product managers, developers, and other stakeholders to drive the experience of our applications
-Form theories and recommendations based on usage data and product analytics
-Design intuitive, modern, accessible products that are consistent with platform-level standards
-Create high-quality workflows, information hierarchies, wireframes, mockups, static and motion prototypes, and other deliverables
-Participate in (and learn to lead) design collaboration sessions
-Write and maintain a UX Brief outlining the goals of each project
-Design with a platform mindset, understanding the relationships between each of Cvent’s products
-Produce multiple design solutions as you work toward a final design
-Articulate your thinking as you present your work to senior designers and other stakeholders
-Gather feedback and iterate on your designs as needed
-Write functional annotations, and work with engineers in an Agile environment to ensure designs are implemented as intended
-
-
-Skills & Requirements
-Experience in design with a focus on software applications
-Seasoned in the application of research and design techniques, and able to adapt the approach taken to meet the challenge
-A portfolio that demonstrates exceptional design skills and design thinking, clearly identifying your role & responsibilities for each project
-Expertise in professional design and prototyping tools
-Deep understanding of the capabilities of HTML, CSS, and JS (front-end coding experience is a plus)
-Ability and desire to apply creativity to a variety of projects
-Self-management, the ability to project your own timelines (as well as follow those created for you) and interact directly with project stakeholders
-Sharp critical thinking and problem solving skills
-Good visual design capacity and/or understanding
-Practitioner of user-centered design principles
-Confidence to take criticism productively and defend your designs when necessary
-Ability to see the big picture, but also pay attention to the details
-Practical understanding of design systems and accessibility beyond the UI
-
-
-Academic And Professional Qualifications
-Bachelor’s degree in Human Computer Interaction, UX Design, Product Design, or a related field
-2-4 years of post-graduation professional experience in a Product Designer or UX Designer role
-
+The Frontend Developer is responsible for building websites, making sure that features are
+built according to the scope, referring to the mockups for aesthetics, and following the
+standards for the selected framework and infrastructure. The Frontend Developer reports
+to the Lead Frontend Developer. The developer will primarily be assigned to a project
+managed by a Project Manager. On occasion, the Lead Frontend Developer will assign an
+escalated task from the Support Team to assist and implement.
+The Frontend Developer will often interact with other team members of the project
+including:
+● Responding to QA feedback
+● Responding to client feedback provided by the Project Manager
+● Participating in daily standups with the Frontend Development team
+● Assisting the Support Team with an assigned task
+Qualifications
+Requirements
+● Strong interpersonal and communication skills needed for technical communication
+● Proficient skills in the following languages and markup:
+○ HTML
+○ CSS
+○ PHP
+○ Javascript
+● Proficient understanding of web-based technologies including but not limited to:
+○ Browsers
+○ Web portals
+○ Content Management Systems
+● Proficient understanding of development tools including but not limited to:
+○ Version Control (Git, Github)
+○ Editors or IDE (Atom, Visual Studio)
+○ Command Line Interface (Powershell, Terminal)
+Additional Skills (Not Required)
+● Working knowledge in SQL or equivalent database knowledge
+● Working knowledge with Docker and containerization
+● Working knowledge with the following software and frameworks:
+○ Package managers (Composer, NPM)
+○ Terraform
+○ Wordpress
+○ Laravel
+○ Vue
+● Working knowledge of responsive design
+● Working knowledge of the design and how to implement with code

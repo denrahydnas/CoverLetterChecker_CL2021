@@ -1,5 +1,6 @@
 # CoverLetterChecker_CL2021
 Code Louisville Python Cohort Project 2021
+
 I'm going to create a program that will compare a cover letter to a job listing and verify keywords and a few other quantifiable checks. It will:
 
 ==> allow User to submit Job Listing text, which is then parsed for keywords, compared to existing keyword list (ex: https://www.jobscan.co/blog/resume-words/#resume-keywords_)

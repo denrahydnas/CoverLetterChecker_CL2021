@@ -41,15 +41,45 @@ def unused_list(list1, list2, new_list):
         if list1[i] not in list2:
             new_list.append(list1[i])
 
-# work on parsing cover letter - check for repeated word usage, sentences starting with I
+# work on parsing cover letter - sentence length and starting with I
 
-def split_words(text, new_list):
-    words = re.split(r"[;,.?! \t\n]+", text)
-    new_list.append(words)
-
-def split_sentences(text, new_list):
+def split_sentences(text):
     sentences = re.split(r"[.?!\t\n]+", text)
-    new_list.append(sentences)
+    return sentences
+
+def long_sentence(sentences):
+    ls = []
+    ranger = len(sentences)
+    for i in range(ranger):
+        if len(sentences[i]) > 150:
+            ls.append(sentences[i])
+    return ls
+            
+def i_start(sentences):
+    i_sentences = []
+    ranger = len(sentences)-1
+#    for sentence in sentences:
+    for i in range(ranger):
+        if sentences[i][0] == "I":
+            i_sentences.append(sentences[i])
+        elif re.match(r" I", sentences[i]):
+            i_sentences.append(sentences[i])
+    return i_sentences  
+
+
+# work on parsing cover letter - overly repeated words
+
+def count_words(text, dict):
+    words = re.split(r"[;,.?! \t\n]+", text)
+    for word in words:
+        if word in dict:
+            dict[word] = dict[word] +1
+        else:
+            dict[word] = 1
+    for key in list(dict.keys()):
+        if dict[key] > 4:
+            print(key, ":", dict[key])
+
 
 
        
