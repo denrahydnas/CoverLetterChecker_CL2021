@@ -64,7 +64,6 @@ business requirements
 business stakeholders
 business strategy
 business systems
-C
 C#
 C++
 CAD

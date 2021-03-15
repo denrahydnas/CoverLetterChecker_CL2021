@@ -1,39 +1,23 @@
-The Frontend Developer is responsible for building websites, making sure that features are
-built according to the scope, referring to the mockups for aesthetics, and following the
-standards for the selected framework and infrastructure. The Frontend Developer reports
-to the Lead Frontend Developer. The developer will primarily be assigned to a project
-managed by a Project Manager. On occasion, the Lead Frontend Developer will assign an
-escalated task from the Support Team to assist and implement.
-The Frontend Developer will often interact with other team members of the project
-including:
-● Responding to QA feedback
-● Responding to client feedback provided by the Project Manager
-● Participating in daily standups with the Frontend Development team
-● Assisting the Support Team with an assigned task
-Qualifications
-Requirements
-● Strong interpersonal and communication skills needed for technical communication
-● Proficient skills in the following languages and markup:
-○ HTML
-○ CSS
-○ PHP
-○ Javascript
-● Proficient understanding of web-based technologies including but not limited to:
-○ Browsers
-○ Web portals
-○ Content Management Systems
-● Proficient understanding of development tools including but not limited to:
-○ Version Control (Git, Github)
-○ Editors or IDE (Atom, Visual Studio)
-○ Command Line Interface (Powershell, Terminal)
-Additional Skills (Not Required)
-● Working knowledge in SQL or equivalent database knowledge
-● Working knowledge with Docker and containerization
-● Working knowledge with the following software and frameworks:
-○ Package managers (Composer, NPM)
-○ Terraform
-○ Wordpress
-○ Laravel
-○ Vue
-● Working knowledge of responsive design
-● Working knowledge of the design and how to implement with code
+Our Customer Success team is committed to helping our customers get set up and maximize the value of the platform and to identify strategies and techniques to grow and engage their communities. This role is for you if you enjoy building new and nurturing existing relationships. You will own a set of current customer accounts where you will troubleshoot, strategize, and align with their community goals and success metrics. You will position yourself as a partner, strategic advisor, and customer advocate. You don’t mind dealing with ambiguity, challenging customer assumptions, or supporting small, everyday technical issues that arise.
+
+Responsibilities
+
+Manage enablement and execution for conference customers 
+Provide consulting services to Enterprise customers to determine the best way to conduct a conference on Bevy Virtual Conference
+Meet with customers weekly via video calls and communicate via email often 
+Liaison between internal teams such as support, product, engineering and design and communicate the needs back to the customer 
+Lead customer dress rehearsal and tech checks before the event 
+Provide premium day of support for the event 
+Identify areas that can be improved throughout the onboarding and execution process and provide solutions for the team to scale
+What we’re looking for:
+
+Must be a multitasker, comfortable with context switching, and have 5-7 years minimum of experience in a customer facing or account management position, ideally in enterprise SaaS.
+ Proven track record of achieving targets and goals
+ Has handled difficult customers or situations and can demonstrate resolutions
+Strong proven work ethic (this is not a 9-5 job)
+Willingness to tackle things on your own
+Quick problem solver who is able able to remain calm under pressure
+Must work within a team environment with sales and services peers
+Ability to navigate data and people to find answers
+Process oriented and able to provide recommendations on how to improve 
+You reside in North or South America. Yes, we are a distributed company, but since we are still small, we like to minimize the time zone spread within the team.
