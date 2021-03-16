@@ -28,7 +28,7 @@ while True:
     answer = input("\nWould you like to review the list? Yes/No/Quit   ")
     if answer.upper() == "YES":
         print(user_list)
-    else:
+    elif answer.upper() == "QUIT":
         break
 
 
@@ -80,7 +80,7 @@ while True:
     print("\n")
     print("*"*80)
     print("\nWe also parsed your cover letter for a few other popular issues: ")
-    print("\n{}, or {}% of the sentences in your letter begin with 'I'. We recommend rephrasing these sentences to be more about the applicable position".format(len(start_i), percent_i))
+    print("\n{} sentences, or {}% of the sentences in your letter begin with 'I'. We recommend rephrasing these sentences to be more about the applicable position".format(len(start_i), percent_i))
     answer = input("\nWould you like to review these sentences?  Yes/No/Quit ")
     if answer.upper() == "QUIT":
         break
