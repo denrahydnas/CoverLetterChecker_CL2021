@@ -1,18 +1,26 @@
 # CoverLetterChecker_CL2021
-# Code Louisville Python Cohort Project 2021
+Code Louisville Python Cohort Project 2021
 
 # In order to run this program, you will need the following:
-a listing for a job, saved as a .txt file (a sample listing, 'test_listing.txt', is available for testing purposes)
-a cover letter or resume, saved as a .txt file (a sample letter, 'test_letter.txt', is available for testing purposes)
-PyDictionary 2.0.1 package installed
+==> a listing for a job, saved as a .txt file (a sample listing, 'test_listing.txt', is available for testing purposes)
+
+==> a cover letter or resume, saved as a .txt file (a sample letter, 'test_letter.txt', is available for testing purposes)
+
+==> PyDictionary 2.0.1 package installed
 
 # The program will:
 ==> allow User to submit Job Listing text, which is then parsed for keywords, compared to existing keyword list (ex: https://www.jobscan.co/blog/resume-words/#resume-keywords_)
+
 ==> allow user to see parsed keyword list or submit existing Cover Letter
+
 ==> allow user to add keyword to list if omitted
+
 ==> compare cover letter to keywords in job listing, return match results
+
 ==> check cover letter for additional commonly-found issues
+
 ==> suggest synonyms for overused words using PyDictionary
+
 
 # Features List:
 ==> Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
