@@ -8,6 +8,8 @@ Code Louisville Python Cohort Project 2021
 
 ==> PyDictionary 2.0.1 package installed
 
+==> run app.py
+
 # The program will:
 ==> allow User to submit Job Listing text, which is then parsed for keywords, compared to existing keyword list (ex: https://www.jobscan.co/blog/resume-words/#resume-keywords_)
 
