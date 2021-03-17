@@ -7,7 +7,7 @@ I'm going to create a program that will compare a cover letter to a job listing 
 ==> allow user to see parsed keyword list or submit existing Cover Letter
 ==> allow user to add keyword to list if omitted
 ==> compare cover letter to keywords in job listing, return match results
-==> check cover letter for additional issues, suggest synonyms (use MW API (https://dictionaryapi.com/products/api-collegiate-thesaurus)?)
+==> check cover letter for additional issues, suggest synonyms using PyDictionary
 
 
 Features List:
@@ -22,7 +22,7 @@ Features List:
 
 ==> Analyze text and display information about it (ex: how many words in a paragraph)
 
-MAYBE: Connect to an external/3rd party API and read data into your app
+==> Connect to PyDictionary and read data into your app
 
 
 

@@ -67,19 +67,5 @@ def i_start(sentences):
     return i_sentences  
 
 
-# work on parsing cover letter - overly repeated words
-
-def count_words(text, dict):
-    words = re.split(r"[;,.?! \t\n]+", text)
-    for word in words:
-        if word in dict:
-            dict[word] = dict[word] +1
-        else:
-            dict[word] = 1
-    for key in list(dict.keys()):
-        if dict[key] > 4:
-            print(key, ":", dict[key])
-
-
 
        

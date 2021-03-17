@@ -1,4 +1,5 @@
 from keyword_manip import *
+from thesaurus import *
 
 
 #introduction
@@ -100,7 +101,13 @@ while True:
 
 # parse words for overuse, recommend synonyms? 
 
-#TBD
+    answer = input("Would you like to check for repeated words? Yes/No/Quit  ")
+    if answer.upper() == "QUIT":
+        break
+    elif answer.upper() == "YES":
+        wordcount = dict()
+        longwords = (count_words(user_letter, wordcount))
+
 
 # leave program or start again 
 
