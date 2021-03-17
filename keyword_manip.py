@@ -1,5 +1,8 @@
 import re
 
+def starline(num):
+    print("*"*num)
+
 # create master key list from txt file
 
 master_list = []

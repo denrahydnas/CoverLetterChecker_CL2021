@@ -4,14 +4,14 @@ from thesaurus import *
 
 #introduction
 
-print("*"*80)
+starline(80)
 print("\n")
 print("Welcome to my Job Application Keyword Checker.") 
 print("Upload the listing for the job you are applying to and check it against our list of over 1,000 keywords.")
 print("Then, compare your list to your cover letter or resume to make sure you've implememted as many keywords as possible.")
 print("You can also check for a few more cover letter tips to help your application make it past the HR AI and increase the chances of the hiring staff seeing your application.  ")
 print("\n")
-print("*"*80)
+starline(80)
 
 # While loop for program
 
@@ -48,10 +48,11 @@ while True:
 # get user text file to compare to list  
 
     print("\n")
-    print("*" *80)
+    starline(80)
     print("\n")      
     print("We can now compare the list you created to your cover letter or resume.")          
     user_letter = try_file()
+    starline(80)
 
 # print results of comparisons (use class for multiple methods?)
     match_list = []
@@ -79,7 +80,7 @@ while True:
     too_long = long_sentence(sentences)
 
     print("\n")
-    print("*"*80)
+    starline(80)
     print("\nWe also parsed your cover letter for a few other popular issues: ")
     print("\n{} sentences, or {}% of the sentences in your letter begin with 'I'. We recommend rephrasing these sentences to be more about the applicable position".format(len(start_i), percent_i))
     answer = input("\nWould you like to review these sentences?  Yes/No/Quit ")
@@ -101,20 +102,29 @@ while True:
 
 # parse words for overuse, recommend synonyms? 
 
-    answer = input("Would you like to check for repeated words? Yes/No/Quit  ")
+    answer = input("\nWould you like to check for repeated words? Yes/No/Quit  ")
     if answer.upper() == "QUIT":
         break
     elif answer.upper() == "YES":
-        wordcount = dict()
-        longwords = (count_words(user_letter, wordcount))
-
+        overused = dict()
+        synonyms = []
+        count_words(user_letter, overused, synonyms)
+        print("\nHere are a few synonyms you might use instead: \n")
+        get_syns(synonyms)
+    answer = input("\nWould you like to find synonyms for another word? Yes/No/Quit  ")
+    if answer.upper() == "QUIT":
+        break
+    elif answer.upper() == "YES":
+         word = input("\nWhat word would you like to search?  ")
+         syns = get_syn(word)
+         print("\nWe found the following synonyms for {}:".format(word))
+         print(syns[0:6])
 
 # leave program or start again 
 
     answer = input("\nWould you like to compare other files? Yes/No/Quit  ")
     if answer.upper() != "YES":
         print("\nOk, thank you - good luck on your job hunt!\n")
-        print("*"*80)
+        starline(80)
         print("\n")
         break
-

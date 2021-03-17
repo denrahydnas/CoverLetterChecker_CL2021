@@ -16,9 +16,9 @@ def count_words(text, dict, new_list):
             dict[word] = 1
     for key in list(dict.keys()):
         if dict[key] > 3 and (len(key)) > 5:
-            print("you used the word '{}' {} times.".format(key, dict[key]))
             new_list.append(key)
-
+            print("You used the word '{}' {} times.".format(key, dict[key]))
+            
 
 #get synonyms from PyDictionary for repeated words
 
