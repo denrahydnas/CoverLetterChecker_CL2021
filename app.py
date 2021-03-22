@@ -50,9 +50,11 @@ while True:
     print("\n")
     starline(80)
     print("\n")      
-    print("We can now compare the list you created to your cover letter or resume.")          
+    print("We can now compare the list you created to your cover letter or resume.")      
+    print("\n")       
     user_letter = try_file()
     starline(80)
+    print("\n")   
 
 # print results of comparisons (use class for multiple methods?)
     match_list = []

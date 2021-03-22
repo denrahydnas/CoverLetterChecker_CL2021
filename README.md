@@ -6,7 +6,7 @@ Code Louisville Python Cohort Project 2021
 
 ==> a cover letter or resume, saved as a .txt file (a sample letter, 'test_letter.txt', is available for testing purposes)
 
-==> PyDictionary 2.0.1 package installed
+==> PyDictionary 2.0.1 package installed - USE 'requirements.txt' TO LOAD
 
 ==> run app.py
 
